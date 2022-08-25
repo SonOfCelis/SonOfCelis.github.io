@@ -14,7 +14,7 @@ body {
 .wrapper {
   width: 100vw;
   height: 100vh;
-  background-color: #191c32;
+  background: linear-gradient(70deg, #2baaff,#26479c);
   color: #fff;
 }
 
@@ -141,7 +141,7 @@ h1 {
 .portfolio,
 .contact-section {
   width: 100vw;
-  background-color: #191c32;
+  background: linear-gradient(70deg, #2baaff,#26479c);
   color: #fff;
 }
 
@@ -171,7 +171,7 @@ h1 {
 
 .card {
   width: 300px;
-  background-color: #2b3058;
+  background-color: #606edb;
   margin: 1em;
   text-align: center;
 }
@@ -204,7 +204,7 @@ h1 {
 
 .project-details-button a {
   text-decoration: none;
-  color: #191c32;
+  color: #606edb;
 }
 
 
@@ -292,7 +292,7 @@ h1 {
 .portfolio,
 .contact-section {
   width: 100vw;
-  background-color: #191c32;
+  background-color: #606edb;
   color: #fff;
 }
 
@@ -375,8 +375,8 @@ h1 {
 
 
 .contact-section img {
-  width: 750px;
-  height: 700px;
+  width: 650px;
+  height: 600px;
   bottom: 0px;
 }
 
@@ -391,8 +391,8 @@ h1 {
   height: 150px;
   padding: 1.5em;
   background: none;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #26479c;
+  color: #26479c;
 }
 
 .form-group .input {
@@ -400,8 +400,8 @@ h1 {
   margin-bottom: 1em;
   background: none;
   border: none;
-  border-bottom: 1px solid #fff;
-  color: #fff;
+  border-bottom: 1px solid #26479c;
+  color: #26479c;
 }
 
 .form-group .btn-submit {
@@ -410,7 +410,7 @@ h1 {
   border-radius: 20px;
   border: none;
   text-transform: uppercase;
-  background-color: aqua;
+  background-color:#26479c;
 }
 
 
@@ -465,61 +465,47 @@ h1 {
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+.container1{
+  display: flex;
+width: 400px;
+height: 40px;
+color: #fff;
+font-size: 40px;
+line-height: 40px;
 
+position: auto;
+overflow: hidden;
 
-
-.container{
-  display:flex;
-  align-items:center;
 }
-.container > .static-txt {
-  color: #fff;
+
+.dynamic-txt{
+  list-style-type: none;
+  padding-left: 10px;
+  animation: cambiar 7s infinite;
+}
+
+.static-txt, .dynamic-txt{
+  margin: 0;
+}
+
+@keyframes cambiar {
+  0%{ margin-top: 0;}
+  20%{ margin-top: 0;}
+  25%{ margin-top: -40px;}
+  50%{ margin-top: -40px;}
+  55%{ margin-top: -80px;}
+  70%{ margin-top: -40px;}
+  95%{ margin-top: -40px;}
+  100%{ margin-top: 0;}
+
+
+}
+#contacto{
+  background: #fff;
+  color: #2baaff;
+}
+
+.contact-heading{
+  color:#26479c;
   font-size: 50px;
-}
-
-.container > .dynamic-txt {
-  color: var(--primary);
-  font-size:50px;
-  height:70px;
-  line-height:70px;
-  overflow:hidden;
-  margin-left:0 0 0 15px;
-  padding-left: 15px;
-}
-.dynamic-txt > li {
-  list-style:none;
-  font-weight:500;
-  position: relative;
-  animation: slide 6s steps(2) infinite;
-}
-@keyframes slide{
-  100% {
-    top: -70px;
-  }
-}
-.dynamic-txt li span {
-  margin:5px 0;
-  line-height:70px;
-}
-
-.dynamic-txt li span::after {
-  position:absolute;
-  content:'';
-  left:0;
-  height:100%;
-  width:100%;
-  line-height:70px;
-  background:var(--background);
-  border-left: 2px solid var(--primary);
-  animation: typing 3s steps(10) infinite;
-}
-
-@keyframes typing {
-  40%,60% {left: calc(100% + 30px);}
-  100% {left:0;}
-} 
-
-:root {
-  --background: #191c32;
-  --primary:#3700b3;
 }
