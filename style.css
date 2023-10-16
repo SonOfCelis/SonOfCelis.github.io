@@ -325,12 +325,13 @@ h3{
     color: #777;
 }
 .about-btn button{
-    position: absolute;
+    position: center;
     right: 20px;
     bottom: 20px;
     background: var(--first-color);
     color: var(--color-white);
     border-radius: 30px;
+    margin-top: 30px;
 }
 .about-btn button:hover{
     background: var(--first-color-hover);
@@ -564,6 +565,7 @@ footer{
     .nav_menu_list{
         flex-direction: column;
     }
+
     .nav-menu-btn{
         display: flex;
         align-items: center;
@@ -633,4 +635,5 @@ footer{
     .input-field{
         width: 100%;
     }
+
 }
