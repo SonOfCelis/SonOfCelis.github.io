@@ -646,6 +646,11 @@ justify-content: center;
     .input-field{
         width: 100%;
     }
+    .bottom-footer{
+        align-items: center;
+        justify-content: center;
+        margin-left: 35px;
+    }
 
     .about{
        align-items: center;
