@@ -186,17 +186,18 @@
                             <p><i class="uil uil-phone"></i> +34 666825052 </p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col">     
+                        <form action="https://formspree.io/f/xjvzevdl"method="POST" id="form">
                         <div class="form-control">
                             <div class="form-inputs">
-                                <input type="text" class="input-field" placeholder="Nombre">
-                                <input type="text" class="input-field" placeholder="Email">
+                                <input name="name"type="name" class="input-field" placeholder="Nombre">
+                                <input name="email" type="email" class="input-field" placeholder="Email">
                             </div>
                             <div class="text-area">
-                                <textarea placeholder="Escribe aqui.."></textarea>
+                                <textarea name="message"placeholder="Mensaje"></textarea>
                             </div>
                             <div class="form-button">
-                                <button class="btn">Enviar <i class="uil uil-message"></i></button>
+                                <button type="submit" class="btn">Enviar<i class="uil uil-message"></i></button>
                             </div>
                         </div>
                     </div>
@@ -252,6 +253,26 @@
 
     <!-- ----- MAIN JS ----- -->
     <script src="./script2.js"></script>
+    <script>
+        const $form = document.querySelector('#form')
+        $form.addEventListener('submit', handleSubmit)
+        async function handleSubmit(event){
+            event.preventDefault()
+            const form = new FormData(this)
+            const response = await fetch(this.action, {
+                method: this.method,
+                body: form,
+                headers: {
+                    'Accept':'aplication/json'
+                }
+
+            })
+            if (response.ok){
+                alert( 'Gracias por Contactarme, pronto me pondre en contacto contigo'
+                )
+            }
+        }  
+    </script>
 </body>
 
 </html>
