@@ -634,8 +634,16 @@ justify-content: center;
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 
 @media only screen and (max-width: 540px){
+
+    .social_icons{
+        display: flex;
+        margin-top: 2em;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
     .featured-name{
-        font-size: 40px;
+        font-size: 32px;
     }
     .project-box{
         width: 100%;
@@ -646,9 +654,20 @@ justify-content: center;
     .input-field{
         width: 100%;
     }
+    .bottom-footer{
+        align-items: center;
+        justify-content: center;
+        margin-left: 35px;
+    }
 
     .about{
        align-items: center;
        justify-content: center;
     }
+
+    .featured-text-btn{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+} 
 }
