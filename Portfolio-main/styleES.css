@@ -183,13 +183,14 @@ nav{
     border-radius: 5px;
 }
 .featured-name{
-    font-size: 50px;
+    font-size: 32px;
     font-weight: 600;
     color: var(--text-color-second);
     margin-block: 20px;
 }
 .typedText{
     text-transform: capitalize;
+    font-size: 32px;
     color: var(--text-color-third);
 }
 .featured-text-info{
@@ -635,7 +636,7 @@ justify-content: center;
 
 @media only screen and (max-width: 540px){
     .featured-name{
-        font-size: 40px;
+        font-size: 32px;
     }
     .project-box{
         width: 100%;
