@@ -183,7 +183,7 @@ nav{
     border-radius: 5px;
 }
 .featured-name{
-    font-size: 50px;
+    font-size: 32px;
     font-weight: 600;
     color: var(--text-color-second);
     margin-block: 20px;
@@ -191,6 +191,7 @@ nav{
 .typedText{
     text-transform: capitalize;
     color: var(--text-color-third);
+    font-size: 32px;
 }
 .featured-text-info{
     font-size: 15px;
@@ -643,7 +644,7 @@ justify-content: center;
         justify-content: center;
     }
     .featured-name{
-        font-size: 32px;
+        font-size: 24px;
     }
     .project-box{
         width: 100%;
@@ -670,4 +671,9 @@ justify-content: center;
         gap: 20px;
         justify-content: center;
 } 
+.typedText{
+    text-transform: capitalize;
+    color: var(--text-color-third);
+    font-size: 24px;
+}
 }
