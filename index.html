@@ -1,650 +1,78 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Ruben Osorio</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <!-- UNICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Add favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/vendor.css">
-
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script defer src="js/fontawesome/all.min.js"></script>
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/ro.ico">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-
+    <title>Portfolio | @SonOfCelis</title>
 </head>
 
-<body id="top">
-
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-
-
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-
-        <div class="s-header__logo">
-            <a href="index.html">
-               
-            </a>
-        </div>
-
-        <div class="s-header__content">
-    
-            <nav class="s-header__nav-wrap">
-                <ul class="s-header__nav">
-                    <li><a class="smoothscroll" href="#hero" title="Intro">INICIO</a></li>
-                    <li><a class="smoothscroll" href="#about" title="About">SOBRE MI</a></li>
-                    <li><a class="smoothscroll" href="#services" title="Services">Servicios</a></li>
-                    <li><a class="smoothscroll" href="#portfolio" title="Works">Contacto</a></li>
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Hola</p>
+                <span></span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
                 </ul>
-            </nav> <!-- end s-header__nav-wrap -->
-
-            <a href="mailto:#0" class="btn btn--primary btn--small">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
-                Contactame
-            </a>
-
-        </div> <!-- end header-content -->
-
-        <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
-
-    </header> <!-- end s-header -->
-
-
-    <!-- hero
-    ================================================== -->
-    <section id="hero" class="s-hero target-section">
-
-        <div class="s-hero__bg">
-            <div class="gradient-overlay"></div>
-        </div>
-
-        <div class="row s-hero__content">
-            <div class="column">
-
-                <h1>Hola.</h1>
-                <div class="s-hero__content-about">
-
-                    <p>
-                        Soy Ruben Osorio, tu asesor inmobiliario. 
-                    </p>
-    
-                    <footer>
-                        <div class="s-hero__content-social">
-                            <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-                            <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                            <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a>
-                        </div>
-                    </footer>
-                </div>
-
             </div>
-        </div>
-
-        <div class="s-hero__video">
-            <a class="s-hero__video-link" href="https://player.vimeo.com/video/117310401?color=01aef0&amp;title=0&amp;byline=0&amp;portrait=0" data-lity="">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
-                <span class="s-hero__video-text">Play Video</span>
-            </a>
-        </div>
-
-        <div class="s-hero__scroll">
-            <a href="#about" class="s-hero__scroll-link smoothscroll">
-                Dezliza Abajo
-            </a>
-        </div>
-
-    </section> <!-- end s-hero -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about">
-
-        <div class="horizontal-line"></div>
-
-        <div class="row">
-            <div class="column large-12">
-
-                <div class="section-title" data-num="01" data-aos="fade-up">
-                    <h3 class="h6">Quien soy</h3>
-                </div>
-
+            <div class="nav-button">
+                <a href="CvRafaelRovero.zip"><button class="btn">Download CV <i class="uil uil-file-alt"></i></button></a>
             </div>
-
-            <div class="column large-6 w-900-stack s-about__intro-text">
-                <h1 class="display-1" data-aos="fade-up">
-                    Soy Rubén Osorio, asesor inmobiliario con experiencia en la compra, venta y alquiler de propiedades.
-                </h1>
-
-                <p class="lead" data-aos="fade-up">
-                    Me esfuerzo por brindar un servicio cercano, honesto y personalizado, acompañando a mis clientes en cada paso del proceso. Mi objetivo es ayudarte a tomar decisiones seguras y encontrar la propiedad que mejor se adapte a tus necesidades.
-                </p>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
             </div>
-
-            <div class="column large-6 w-900-stack s-about__photo-block">
-                <div class="s-about__photo" data-aos="fade-up"></div>
-            </div>
-        </div>
-
-        <div class="row block-large-1-2 block-tab-full s-about__process item-list">
-            <div class="column item item-process" data-aos="fade-up">
-                <h3 class="item-title">Conozco el Mercado</h3>
-                <p>
-                Me mantengo al dia con las tendecncias del Sector y se como valorar correctamente una propiedad.
-                </p>
-            </div>
-            <div class="column item item-process" data-aos="fade-up">
-                <h3 class="item-title">Comunicacion clara y constante</h3>
-                <p>
-                Escucho a mis clientes , resuelvo dudas y los mantengo informados en cada paso del proceso.
-                </p>
-            </div>
-            <div class="column item item-process" data-aos="fade-up">
-                <h3 class="item-title">Negociador Estrategico</h3>
-                <p>
-                Busco siempre el mejor acuerdo posible, cuidando tanto tus intereses como los de la otra parte.
-                </p>
-            </div>
-            <div class="column item item-process" data-aos="fade-up">
-                <h3 class="item-title">Compromiso y Transparencia</h3>
-                <p>
-                Mi prioridad es generar confianza, actuar con honestidad y acompañarte para asegurarme de que mis clientes se sientan seguros en cada paso del proceso.
-                </p>
-            </div>
-        </div>
-
-    </section> <!-- end s-about -->
+        </nav>
 
 
-    <!-- services
-    ================================================== -->
-    <section id="services" class="s-services">
-
-        <div class="row">
-            <div class="column large-12">
-                <div class="section-title" data-num="02" data-aos="fade-up">
-                    <h3 class="h6">Nuestra experiencia</h3>
-                </div>
-            </div>
-            <div class="column large-6 w-900-stack">
-                <h1 class="display-1" data-aos="fade-up">
-                    "La Experiencia no se trata del tiempo si no de lo que haces con el"
-                </h1>
-            </div>
-            <div class="column large-6 w-900-stack">
-                <p class="lead" data-aos="fade-up">
-                Durante mi  carrera como asesor inmobiliario he tenido la oportunidad de trabajar con una variedad de clientes, 
-                desde compradores primerizos hasta inversionistas experimentados. He cerrado exitosamente transacciones en diferentes 
-                tipos de propiedades, incluyendo residenciales, comerciales y terrenos. Mi enfoque personalizado y mi compromiso con 
-                la excelencia me han permitido construir relaciones sólidas y duraderas con mis clientes, quienes confían en mí para guiarlos en cada paso del proceso inmobiliario.
-                </p>
-            </div>
-        </div>
-<!--
-        <div class="row block-large-1-2 block-tab-full s-services__services item-list">
-            <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--product-design"></span>
-                <h3 class="item-title">Product Design</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
-            </div>
-            <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--branding"></span>
-                <h3 class="item-title">Branding</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
-            </div>
-            <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--frontend"></span>
-                <h3 class="item-title">Frontend Development</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
-            </div>
-            <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--research"></span>
-                <h3 class="item-title">UX Research</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
-            </div>
-            <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--illustration"></span>
-                <h3 class="item-title">Illustration</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
-            </div>
-            <div class="column item item-service" data-aos="fade-up">
-                <span class="service-icon service-icon--ecommerce"></span>
-                <h3 class="item-title">E-Commerce</h3>
-                <p>
-                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
-                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
-                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
-                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
-                </p>
-            </div>
-        </div>
-
-    </section>  end s-services -->
-
-    <section id="portfolio" class="s-portfolio">
-
-        <div class="row s-porfolio__top">
-            <div class="column large-6 w-900-stack">
-                <div class="section-title" data-num="03" data-aos="fade-up">
-                    <h3 class="h6">En Venta </h3>
-                </div>
-            </div>
-            <div class="column large-6 w-900-stack">
-                <h1 class="display-1" data-aos="fade-up">
-                    Esta es tu oportunidad de explorar nuestra selección actual. 
-                    Descubre los artículos disponibles y encuentra justo lo que necesitas en este momento.
-                </h1>
-            </div>
-        </div> <!-- end s-portfolio__top-->
-
-        <!-- Columna piso 1-->
-
-        <div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
-
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/piso/piso1.jpg" title="Piso en Venta" data-size="1050x700">
-                            <img src="images/piso/piso1.jpg" 
-                                 srcset="images/piso/piso1.jpg 1x, images/portfolio/red-wheel@2x.jpg 2x" alt="">
-                        </a>
+        <!-- -------------- MAIN ---------------- -->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <img class="imagen" src="hello.png" alt="idiomas">
                     </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">Piso 1</div>
-                        <h4 class="folio-item__title">San Cristobal</h4>
-                    </div>
-             <a href="mailto:#0"  title="Project Link" class="folio-item__project-link">Contactar</a>
-                    <div class="folio-item__caption">
-                        <p>Disfruta de este luminoso piso de 2 habitaciones y 2 baños, perfecto para familias pequeñas o parejas que valoran el espacio extra y la privacidad..</p>
-                    </div>
-                </div>
-            </div>
-        <!-- end Columna piso 1-->
 
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/piso/piso2.jpg" title="Estudio en" data-size="1050x700">
-                            <img src="images/piso/piso2.jpg" 
-                                 srcset="images/piso/piso2.jpg 1x, images/portfolio/music-life@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">Piso 2</div>
-                        <h4 class="folio-item__title">Rivas Vacia-Madrid</h4>
-                    </div>
-                    <a href="mailto:#0"  title="Project Link" class="folio-item__project-link">Contactar</a>
-                    <div class="folio-item__caption">
-                        <p>Acogedor estudio en Madrid, perfecto para quienes buscan un punto de partida cómodo y céntrico para explorar la ciudad.</p>
-                    </div>
-                </div>
-            </div> <!-- end column -->
-
-            <!-- para agregar hasta 6 o mas items
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-oi-logo.jpg" Title="OI Logo" data-size="1050x700">
-                            <img src="images/portfolio/oi-logo.jpg.jpg" 
-                                 srcset="images/portfolio/oi-logo.jpg 1x, images/portfolio/oi-logo@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">Branding</div>
-                        <h4 class="folio-item__title">OI Logo</h4>
-                    </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
-                    <div class="folio-item__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
-                </div>
-            </div> end column 
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-corrugated-sheets.jpg" title="Corrugated Sheets" data-size="1050x700">
-                            <img src="images/portfolio/corrugated-sheets.jpg" 
-                                 srcset="images/portfolio/corrugated-sheets.jpg 1x, images/portfolio/corrugated-sheets@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">Frontend Design</div>
-                        <h4 class="folio-item__title">Corrugated Sheets</h4>
-                    </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
-                    <div class="folio-item__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
-                </div>
-            </div>  
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-woodcraft.jpg" title="Sand Dunes" data-size="1050x700">
-                            <img src="images/portfolio/woodcraft.jpg" 
-                                 srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">Frontend Design</div>
-                        <h4 class="folio-item__title">Wooocraft</h4>
-                    </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">
-                        Project Link
-                    </a>
-                    <div class="folio-item__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
-                </div>
-            </div>  end column 
-            <div class="column" data-aos="fade-up">
-                <div class="folio-item">
-                    <div class="folio-item__thumb">
-                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-lamp.jpg" title="The Lamp" data-size="1050x700">
-                            <img src="images/portfolio/lamp.jpg" 
-                                 srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
-                        </a>
-                    </div>
-                    <div class="folio-item__info">
-                        <div class="folio-item__cat">Frontend Design</div>
-                        <h4 class="folio-item__title">The Lamp</h4>
-                    </div>
-                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link">Project Link</a>
-                    <div class="folio-item__caption">
-                        <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                    </div>
-                </div>
-            </div>  end column -->
-
-        </div> <!-- folio-list -->
-
-    </section> <!-- end s-portfolio -->
-
-
-
-    <!-- clients
-    ================================================== 
-    <div id="clients" class="section s-clients">
-
-        <div class="row narrower s-clients__top h-text-center">
-            <div class="column">
-                <h1 class="display-1" data-aos="fade-up">
-                We've had the priveledge with working with
-                some of the largest and most iconic brands
-                </h1>
-            </div>
-        </div> s-clients__top 
-
-        <div class="row clients-outer">
-            <div class="column">
-                <div class="clients" data-aos="fade-up">
                     
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/dropbox.svg" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/atom.svg" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/github.svg" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/redhat.svg" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/medium.svg" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/messenger.svg" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/steam.svg" /></a>
-                    <a href="#0" title="" class="clients__slide"><img src="images/icons/clients/spotify.svg" /></a>
-                     
-                </div> 
-            </div> 
-        </div> -->
-        
-
-        <div class="row testimonials collapse">
-
-            <div class="column large-12">
-
-                <div class="testimonial-slider" data-aos="fade-up">
-
-                    <div class="testimonial-slider__slide">
-                        <p>
-                            "¡Excelente servicio! Estaba bastante perdido en el proceso de buscar piso en Madrid pero Ruben 
-                            me guio en cada paso. Encontre justo lo que necesitaba e hicieron que todo el papeleo fuera mucho más sencillo. ¡Muy agradecido!"
-                        </p>
-                        <div class="testimonial-slider__author">
-                            <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonial-slider__avatar">
-                            <cite class="testimonial-slider__cite">
-                                <strong>Javier Medina</strong>
-                                <span>Cliente 1</span>
-                            </cite>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-    
-                    <div class="testimonial-slider__slide">
-                        <p>
-                            "Profesional de principio a fin, Su conocimiento del mercado inmobiliario en 
-                            Madrid es impresionante. Gracias a su asesoramiento,
-                             conseguí vender mi propiedad rápidamente y a un precio justo. ¡Los recomiendo totalmente!" 
-                        </p>
-                        <div class="testimonial-slider__author">
-                            <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonial-slider__avatar">
-                            <cite class="testimonial-slider__cite">
-                                <strong>Carlos Mencias</strong>
-                                <span>RRHH, Mercadona</span>
-                            </cite>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-    
-                    <div class="testimonial-slider__slide">
-                        <p>
-                            "Como inversor extranjero, necesitaba a alguien de confianza que me ayudara a 
-                            encontrar las mejores oportunidades en Madrid, pero Ruben no solo entendió mis
-                             necesidades, sino que también me ofreció opciones muy interesantes.
-                              Su experiencia y dedicación marcaron la diferencia. ¡Un servicio excepcional!"
-                        </p>
-                        <div class="testimonial-slider__author">
-                            <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonial-slider__avatar">
-                            <cite class="testimonial-slider__cite">
-                                <strong>Satya Nadella</strong>
-                                <span>CEO, Conatel</span>
-                            </cite>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-    
-                    <div class="testimonial-slider__slide">
-                        <p>
-                            "Después de una búsqueda frustrante por mi cuenta, decidí 
-                            contactar con Ruben. Fue la mejor decisión que pude tomar. Su atención personalizada y su 
-                            paciencia para entender mis prioridades fueron clave para encontrar mi hogar ideal. ¡Un trato humano y muy eficiente!"
-                        </p>
-                        <div class="testimonial-slider__author">
-                            <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonial-slider__avatar">
-                            <cite class="testimonial-slider__cite">
-                                <strong>Enrique Martinez</strong>
-                                <span>Autonomo</span>
-                            </cite>
-                        </div>
-                    </div> <!-- end testimonials__slide -->
-
-                </div> <!-- end testimonial slider -->
-                
-            </div> <!-- end column -->
-
-        </div> <!-- end row -->
-
-
-    </div> <!-- end s-clients -->
-
-
-    <!-- contact
-    ================================================== -->
-    <section class="s-contact">
-
-        <div class="row narrower s-contact__top h-text-center">
-            <div class="column">
-                <h3 class="h6">Mantente en Contacto</h3>
-                <h1 class="display-1">
-                    ¿Listo para dar el siguiente paso hacia tu nuevo hogar en Madrid? No dudes 
-                    en contactarme para que juntos encontremos tu espacio ideal.
-                     ¡Estoy aquí para ayudarte!
-            </div>
-        </div> <!-- s-footer__top -->
-
-        <div class="row h-text-center">
-            <div class="column">
-                <p class="s-contact__email">
-                    <a href="mailto:#0">RubenO@gmail.com</a>
-                </p>
-            </div>
-        </div>
-
-    </section>  <!-- end s-contact -->
-
-
-    <!-- footer
-    ================================================== -->
-    <footer class="s-footer">
-        <div class="row row-y-top">
-
-            <div class="column large-8 medium-12">
-                <div class="row">
-                    <div class="column large-7 tab-12 s-footer__block">
-                        <h4 class="h6">Donde Encontrarnos</h4>
-        
-                        <p>
-                        España <br>
-                        Direccion Oficina <br>
-                        Codigo Postal Oficina ES<br>
-                        <a href="tel:197-543-2345">+197 543 2345</a>
-                        </p>
+                    <div class="featured-text-btn">
+                        <a href="/Portfolio-main/indexEN.html"><button class="btn blue-btn">English</button></a>
+                        <a href="/Portfolio-main/indexES.html"><button class="btn">Español</button></a>
                     </div>
-        
-                    <div class="column large-5 tab-12 s-footer__block">
-                        <h4 class="h6">Follow Me</h4 class="h6">
-        
-                        <ul class="s-footer__list">
-                            <li><a href="#0">Facebook</a></li>
-                            <li><a href="#0">Twitter</a></li>
-                            <li><a href="#0">Instagram</a></li>
-                            <li><a href="#0">Dribbble</a></li>
-                        </ul>
+                    <div class="social_icons">
+                <div class="icon"><a href="https://www.instagram.com/sonofcelis"><i class="uil uil-instagram"></i></div></a>
+                <div class="icon"><a href="https://www.linkedin.com/in/rafael-rovero-4754b4241/"><i class="uil uil-linkedin-alt"></i></div></a>
+                <div class="icon"><a href="https://twitter.com/@sonofcelis"><i class="uil uil-twitter"></i></div></a>
+                <div class="icon"><a href="https://github.com/SonOfCelis"><i class="uil uil-github-alt"></i></div></a>
                     </div>
                 </div>
-            </div>
-
-            <div class="column large-4 medium-12 s-footer__block--end">
-                <a href="mailto:#0" class="btn h-full-width">Hablemos</a>
-
-                <div class="ss-copyright">
-                    <span>Copyright SoC 2025</span> 
-                    <span>Editado by <a href="https://sonofcelis.github.io/">Rafael R.</a></span>
-                </div>
-            </div>
-
-            <div class="ss-go-top">
-                <a class="smoothscroll" title="Back to Top" href="#top">
-                    top
-                </a>
-            </div> <!-- end ss-go-top -->
-
-        </div>
-    </footer>
-    
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div> <!-- end photoSwipe background -->
-
-
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
-</body>
-
-</html>
+               
+               
+            </section>
